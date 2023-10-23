@@ -1,11 +1,4 @@
-type Blog = {
-    title: string;
-    date: string;
-    description: string;
-    slug: string; 
-};
-
-const blogs2: Blog[] = [
+var blogs = [
     {
         title: "Blog Post 1",
         date: "2023-10-22",
@@ -20,29 +13,20 @@ const blogs2: Blog[] = [
     },
     // Add more blog posts as needed
 ];
-function displayBlogs2() {
+function displayBlogs() {
     // Find the container div in the DOM
-    const container = document.querySelector(".blog-container");
-
+    var container = document.querySelector(".blog-container");
     if (container) {
         // Iterate over the list of blogs
-        blogs2.forEach((blog) => {
+        blogs.forEach(function (blog) {
             // Create a new div element for each blog
-            const blogElement = document.createElement("div");
+            var blogElement = document.createElement("div");
             blogElement.classList.add("blog");
-
             // Populate the innerHTML of the blog element with blog data
-            blogElement.innerHTML = `
-                <h2>${blog.title}</h2>
-                <p>Date: ${blog.date}</p>
-                <p>${blog.description}</p>
-                <a href="${blog.slug}.html">Read more</a>
-            `;
-
+            blogElement.innerHTML = "\n                <h2>".concat(blog.title, "</h2>\n                <p>Date: ").concat(blog.date, "</p>\n                <p>").concat(blog.description, "</p>\n                <a href=\"").concat(blog.slug, ".html\">Read more</a>\n            ");
             // Append the blog element to the container
             container.appendChild(blogElement);
         });
     }
-    
 }
-window.addEventListener("load", displayBlogs2);
+window.addEventListener("load", displayBlogs);
