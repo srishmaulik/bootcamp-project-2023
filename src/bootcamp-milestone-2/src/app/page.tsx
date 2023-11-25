@@ -1,26 +1,13 @@
 // You can name the function within page.tsx anything you want.
- 
+
+ import Link from "next/link"
+
+
 export default function Home() {
   return (
-    <html lang="en">
-      <head>
-        <title>Personal Website</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-      </head>
-      <body>
-        <nav className="navbar">
-          <a href="index.html">
-            <h1 className="logo">Website No.1</h1>
-          </a>
-          <ul className="nav-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <a href="blog_list.html">bloglist</a>
-          </ul>
-        </nav>
+   
+      <>
+       
         <main>
           <h1 className="page-title"> Hello World! </h1>
           <div className="about">
@@ -38,8 +25,8 @@ export default function Home() {
           </div>
         </main>
         <footer className="footer">© 2023 My Personal Website | All Rights Reserved </footer>
-      </body>
-    </html>
+      </>
+    
   );
 }
 

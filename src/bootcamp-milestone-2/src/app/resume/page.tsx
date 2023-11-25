@@ -1,18 +1,10 @@
 import React from 'react';
 
+
 export default function Resume() {
   return (
     <div>
-      <nav className="navbar">
-        <a href="index.html"><h1 className="logo">Website No. 1</h1></a>
-        <ol className="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ol>
-      </nav>
+     
 
       <main>
         <h1 className="page-title-resume">Resume</h1>
@@ -47,13 +39,13 @@ export default function Resume() {
           <section className="section">
             <h2 className="section-title">Skills</h2>
             {/* Content for the Skills section goes here */}
-            <ul className="skill-list">
+            <ol className="skill-list">
               <li>Python</li>
               <li>SQL</li>
               <li>JavaScript</li>
               <li>HTML</li>
               <li>CSS</li>
-            </ul>
+            </ol>
           </section>
 
           <section className="section">
@@ -67,20 +59,20 @@ export default function Resume() {
             </p>
           </section>
 
-         /* <section className="section">
-            <h2 className="section-title">Coursework</h2>
-            {/* Content for the Coursework section goes here */}
-          </section> */
+          <section className="section">
+            <h2 className="section-title">Extra Curriculars - </h2>
+               <p>Developer at hack4impact </p> <p>Cal Poly Swim and Dive team</p>
+          </section> 
 
           <section className="section">
             <h2 className="section-title">My ongoing courses are -</h2>
-            {/* Content for the Activities section goes here */}
-            <ul className="course-list">
+            
+            <ol className="course-list">
               <li>CSC 203</li>
               <li>CPE 225</li>
               <li>MATH 206</li>
               <li>CHEM 125</li>
-            </ul>
+            </ol>
           </section>
 
           <section className="section">
@@ -92,12 +84,7 @@ export default function Resume() {
                     <li>Soccer</li>
                 </ul>
             
-            <ul className="Interests-list">
-              <li>Swimming</li>
-              <li>Reading fiction</li>
-              <li>Watching Anime</li>
-              <li>Soccer</li>
-            </ul>
+           
           </section>
         </div>
 

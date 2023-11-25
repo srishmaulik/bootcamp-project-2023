@@ -1,17 +1,22 @@
-import React from "react";
-import Link from "next/link"; // Make sure to import Link from Next.js
-
+// app/components/Navbar.tsx
+import React from 'react';
+import Link from 'next/link';
 import style from "./navbar.module.css";
 
-export default function Navbar() {
+const Navbar = () => {
   return (
-    <header className={style.navbarContainer}>
-      <h1> Jesus' Personal Website </h1>
-      <nav>
-        <Link href="/">Home</Link>
-        <Link href="/about">About Me</Link>
-        <Link href="/resume">Resume</Link>
+    <header>
+      <h1> Srish's Personal Website </h1>
+      <nav className="navbar">
+        <Link href="/">    Home    </Link>
+        <Link href="/blog">   Blog   </Link>
+        <Link href="/resume">   Resume   </Link>
+        
       </nav>
     </header>
   );
-}
+};
+
+export default Navbar;
+
+
