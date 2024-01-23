@@ -1,22 +1,16 @@
-import React from "react";
-import styles from "./blogPreview.module.css";
-import { Blog } from "@/app/blogData";
+import React from 'react';
+import type { Blog } from "@/app/blogData";
+import Link from "next/link";
+
 
 export default function BlogPreview(props: Blog) {
-  return (
-    // replace everything between the <div> & </div> tags
-    // with your code from earlier milestones
-    <>
-      <main>
-        <div className={styles.blog_div}>
-          <h1>{props.title}</h1>
+    return (
+      <div className = "bloglist">
+        <h2><Link href={props.slug}> {props.title} </Link></h2>
+        <div>
           <p>{props.date}</p>
           <p>{props.description}</p>
-          
-          
         </div>
-      </main>
-      
-    </>
-  );
-}
+      </div>
+    );
+  }

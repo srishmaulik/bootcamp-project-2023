@@ -3,20 +3,32 @@ import React from 'react';
 import Link from 'next/link';
 import style from "./navbar.module.css";
 
-const Navbar = () => {
+export default function navbar() {
   return (
-    <header>
-      <h1> Srish's Personal Website </h1>
-      <nav className="navbar">
-        <Link href="/">    Home    </Link>
-        <Link href="/blog">   Blog   </Link>
-        <Link href="/resume">   Resume   </Link>
-        
-      </nav>
+    <header className={style.navbar}>
+      <h1 className="logo">
+        <Link href="/">Srish's Website</Link>
+      </h1>
+      <ul className={style.navlist}>
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/blog">Blog</Link>
+        </li>
+        <li>
+          <Link href="/portfolio">Portfolio</Link>
+        </li>
+        <li>
+          <Link href="/resume">Resume</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact</Link>
+        </li>
+      </ul>
     </header>
   );
-};
+}
 
-export default Navbar;
 
 

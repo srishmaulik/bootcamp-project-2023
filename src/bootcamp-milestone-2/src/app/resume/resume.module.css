@@ -1,0 +1,86 @@
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #333;
+  }
+  
+  .resume-pdf {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .resume-pdf:hover {
+    background-color: #0056b3;
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    color: #333;
+  }
+  
+  .entry-title {
+    color: #007bff;
+  }
+  
+  .entry-info {
+    color: #555;
+  }
+  
+  .entry-description {
+    color: #777;
+  }
+  
+  .skill_list {
+    list-style-type: square;
+    padding: 0;
+  }
+  
+  .skill_list li {
+    margin-bottom: 5px;
+    list-style-type: square;
+    list-style-position: initial;
+    list-style-image: initial;
+  }
+ 
+  
+  .course-list {
+    list-style-type: square;
+    padding: 0;
+  }
+  
+  .course-list li {
+    margin-bottom: 5px;
+    list-style-type: square;
+    list-style-position: initial;
+    list-style-image: initial;
+  }
+  
+  .Interests-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Interests-list li {
+    margin-bottom: 5px;
+    list-style-type: square;
+    list-style-position: initial;
+    list-style-image: initial;
+  }
+  .ul{
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+  
