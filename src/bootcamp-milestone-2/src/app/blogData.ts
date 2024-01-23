@@ -13,13 +13,13 @@ export interface Blog {
       title: "Blog Post 1",
       date: "2023-10-22",
       description: "This is the first blog post description.",
-      slug: "blog-post-1",
+      slug: "blog-1",
     },
     {
       title: "Blog Post 2",
       date: "2023-10-23",
       description: "This is the second blog post description.",
-      slug: "blog-post-2",
+      slug: "blog-2",
     },
     // Add more blog posts as needed
   ];
