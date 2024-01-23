@@ -34,7 +34,7 @@ const Portfolio = () => {
           <div className={styles.aboutText}></div>
         </div>
 
-        <footer className={styles.footer}>© 2023 My Personal Website | All Rights Reserved </footer>
+        <footer className="footer">© 2023 My Personal Website | All Rights Reserved </footer>
       </main>
     </header>
   );
