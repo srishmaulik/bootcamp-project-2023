@@ -5,7 +5,7 @@
     font-family: Georgia;
 }
 
-label {
+.label {
     display: block;
     margin-bottom: 8px;
     font-family: Georgia;
@@ -14,7 +14,7 @@ label {
   
   input[type="text"],
   input[type="email"],
-  textarea {
+  .textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -23,12 +23,12 @@ label {
     font-size: 16px;
     resize: none;
   }
-  input[type="submit"]{
+  .input[type="submit"]{
     border-color: aqua;
     border-style: double;
   }
   /* Add some spacing to the form */
-  form {
+ .form {
     width: 500px;
     margin: 0 auto;
   }
