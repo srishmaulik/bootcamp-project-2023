@@ -39,5 +39,3 @@ const Portfolio = () => {
     </header>
   );
 };
-
-export default Portfolio;
