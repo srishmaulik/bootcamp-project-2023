@@ -10,11 +10,11 @@ const Portfolio = () => {
         <h1 className="page-title">Masai Mara, Kenya</h1>
 
         <Link href="/index.html">
-          <a>
+          
             <div>
               <img src="IMG_5942.jpg" alt="Project Image" width="400" height="600" />
             </div>
-          </a>
+          
         </Link>
 
         <div className={styles.projectDetails}>
