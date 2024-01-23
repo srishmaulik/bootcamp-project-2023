@@ -24,7 +24,7 @@ const Portfolio = () => {
             This is the first website I have ever made.
 
             <Link href="/resume.html">
-              <a>Learn More about me...</a>
+              Learn More about me...
             </Link>
           </p>
         </div>
