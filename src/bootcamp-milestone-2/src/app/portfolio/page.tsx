@@ -12,7 +12,7 @@ const Portfolio = () => {
         <Link href="/index.html">
           
             <div>
-              <img src="IMG_5942.jpg" alt="Project Image" width="400" height="600" />
+              <img src="IMG_5942.jpg" alt="Project Image" width={400} height={600} />
             </div>
           
         </Link>
